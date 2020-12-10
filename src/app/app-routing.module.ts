@@ -5,6 +5,7 @@ import { EntertainmentComponent } from './entertainment/entertainment.component'
 import { HealthComponent } from './health/health.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { NewsComponent } from './news/news.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,11 @@ const routes: Routes = [
   {
     path: "login",
     component: LoginComponent
+  },
+  
+  {
+    path: "news",
+    component: NewsComponent
   },
 ];
 
