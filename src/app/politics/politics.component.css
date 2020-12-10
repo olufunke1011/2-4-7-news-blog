@@ -1,0 +1,8 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+.politics {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 5rem;
+}
+.sub-wrap1 {
