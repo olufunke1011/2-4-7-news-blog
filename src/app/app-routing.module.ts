@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NewsComponent } from './news/news.component';
 import { PoliticsComponent } from './politics/politics.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SportsComponent } from './sports/sports.component';
 
 const routes: Routes = [
   {
@@ -42,6 +44,16 @@ const routes: Routes = [
   {
     path: "politics",
     component: PoliticsComponent
+  },
+
+  {
+    path: "sign-up",
+    component: SignUpComponent
+  },
+
+  {
+    path: "sports",
+    component: SportsComponent
   },
 ];
 
