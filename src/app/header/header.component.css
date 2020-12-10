@@ -25,9 +25,9 @@
     color: white;
 }
 
-.btn-sm {
-    border: .5px solid white;
-    padding: 0 .3rem;
+.navBtn {
+    border: 1px solid white;
     border-radius: 10px;
-}
+ } 
+
 
