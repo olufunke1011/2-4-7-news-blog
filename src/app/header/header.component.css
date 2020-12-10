@@ -1,1 +1,21 @@
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+.color {
+    background-color: #FAA4A5;
+}
+
+.logoSide {
+    justify-content: center;
+    padding: .5rem 0 .5rem 0;
+}
+
+.logoImage {
+    width: 3%;
+}
+.blogName {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin: .2rem 0 0 .2rem;
+}
+
