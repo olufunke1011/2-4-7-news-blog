@@ -1,6 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 .color {
     background-color: #FAA4A5;
+    margin: 0 auto;
 }
 
 .logoSide {
@@ -17,4 +18,16 @@
     font-weight: 700;
     margin: .2rem 0 0 .2rem;
 }
+
+.navComp {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.navBtn {
+    border: 1px solid white;
+    border-radius: 10px;
+ } 
+
 
