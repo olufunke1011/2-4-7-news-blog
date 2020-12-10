@@ -1,6 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 .color {
     background-color: #FAA4A5;
+    margin: 0 auto;
 }
 
 .logoSide {
@@ -16,5 +17,17 @@
     font-family: 'Roboto';
     font-weight: 700;
     margin: .2rem 0 0 .2rem;
+}
+
+.navComp {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.btn-sm {
+    border: .5px solid white;
+    padding: 0 .3rem;
+    border-radius: 10px;
 }
 
