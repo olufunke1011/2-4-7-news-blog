@@ -5,14 +5,13 @@
 
 .logoSide {
     justify-content: center;
-    padding: .5rem 0 .5rem 0;
 }
 
 .logoImage {
     width: 3%;
 }
 .blogName {
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
     font-family: 'Roboto';
     font-weight: 700;
