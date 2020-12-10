@@ -1,7 +1,12 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 .color {
-    background-color: #FAA4A5;
-    margin: 0 auto;
+    background-color: #FAA4A5;  
+}
+
+.navText{
+  position: relative;
+  left: 10rem;
+  padding: 0 1.5rem;
 }
 
 .logoSide {
@@ -28,6 +33,17 @@
 .navBtn {
     border: 1px solid white;
     border-radius: 10px;
+    width: 80%;
+    height: 60%;
+    padding: 0;
+    margin: .5rem 1rem 0 .5rem;
  } 
 
-
+ .navBtn2 {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 15%;
+    height: 15%;
+    padding: 0;
+    margin-top: .5rem;
+ } 
