@@ -1,0 +1,40 @@
+.footerPath {
+    background-color: #111111;
+}
+
+.footerHeads {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.footerHeads p {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 1rem;
+    width: 20%;
+}
+
+.footerNav {
+    display: flex;
+    position: relative;
+    left: 6.5rem;
+}
+
+a {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footerIcon {
+    position: relative;
+    left: 19.5rem;
+}
+
+img {
+    margin-right: 1rem;
+}
