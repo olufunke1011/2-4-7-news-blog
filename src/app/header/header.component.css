@@ -10,12 +10,10 @@
 }
 
 .logoSide {
+    display: flex;
     justify-content: center;
 }
 
-.logoImage {
-    width: 3%;
-}
 .blogName {
     font-size: 3rem;
     color: white;
