@@ -1,5 +1,8 @@
 .footerPath {
     background-color: #111111;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .footerHeads {
@@ -18,13 +21,13 @@
     width: 20%;
 }
 
-.footerNav {
+/* .footerNav {
     display: flex;
     position: relative;
     left: 6.5rem;
-}
+} */
 
-a {
+/*a {
     color: #ffffff;
     font-size: 13px;
     font-weight: bold;
@@ -38,3 +41,9 @@ a {
 img {
     margin-right: 1rem;
 }
+
+.footerForm {
+    border: 1px solid #ffffff;
+    position: relative;
+    left: 40rem;
+} */
