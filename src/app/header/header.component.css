@@ -1,16 +1,19 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 .color {
-    background-color: #FAA4A5;
-    margin: 0 auto;
+    background-color: #FAA4A5;  
+}
+
+.navText{
+  position: relative;
+  left: 9rem;
+  padding: 0 1.5rem;
 }
 
 .logoSide {
+    display: flex;
     justify-content: center;
 }
 
-.logoImage {
-    width: 3%;
-}
 .blogName {
     font-size: 3rem;
     color: white;
@@ -28,6 +31,13 @@
 .navBtn {
     border: 1px solid white;
     border-radius: 10px;
+    padding: 0;
+    margin: .5rem 1rem 0 .5rem;
  } 
 
-
+ .navBtn2 {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0;
+    margin-top: .5rem;
+ } 
