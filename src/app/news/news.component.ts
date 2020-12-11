@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./news.component.css']
 })
 export class NewsComponent implements OnInit {
-
+  title: string;
   constructor() { }
 
   ngOnInit(): void {
+    this.title = 'PM Abiy meets AU envoys for talks on Ethiopia conflict';
+
   }
+
 
 }
