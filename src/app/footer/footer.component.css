@@ -20,14 +20,22 @@
     padding-bottom: 1rem;
     width: 20%;
 }
-
-/* .footerNav {
+ .footerNav {
     display: flex;
     position: relative;
-    left: 6.5rem;
-} */
+} 
 
-/*a {
+.footerNavLinks {
+    position: relative;
+    left: 6.5rem;
+}
+
+.footerNavLink {
+    position: relative;
+    left: 8rem;
+}
+
+a {
     color: #ffffff;
     font-size: 13px;
     font-weight: bold;
@@ -35,7 +43,7 @@
 
 .footerIcon {
     position: relative;
-    left: 19.5rem;
+    left: 25.5rem;
 }
 
 img {
@@ -45,5 +53,6 @@ img {
 .footerForm {
     border: 1px solid #ffffff;
     position: relative;
-    left: 40rem;
-} */
+    left: 45rem;
+    padding: 2rem;
+} 
