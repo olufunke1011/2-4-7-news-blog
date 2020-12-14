@@ -2,8 +2,8 @@
     background-color: #111111;
     position: absolute;
     width: 100%;
-    bottom: 0;
-    z-index: 1;
+    bottom: -70rem;
+    z-index: 100;
 }
 
 .footerHeads {
