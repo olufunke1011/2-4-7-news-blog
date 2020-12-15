@@ -2,7 +2,7 @@
   <h1 class="mb-3">News</h1> 
   <hr class="w-50 m-0 mb-3">
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-6 mb-5">
       <img class="card-img" src="./assets/img/news/pm-abiy.png" alt="PM_Abiy"/>
     </div>
   <div class="col-sm-6">
@@ -15,9 +15,9 @@
     <div class="col-sm-8 parent">
       <div class="card-group">
 
-        <div class="row row-cols-1 row-cols-md-2 grid" id="otherNews">
-          <div class="col" *ngFor="let post of posts.data.posts; index as i">
-            <div class="card newsPosts m-0 p-0">
+        <div class="row row-cols-1 row-cols-md-2" id="otherNews">
+          <div class="col mb-5" *ngFor="let post of posts.data.posts; index as i">
+            <div class="card newsPoss m-0 p-0">
               <img src="./assets/img/news/lasg-news.png" class="card-img-top" alt="manhole_vandalism" id="newsImg">
               <div class="card-body newsText">
                 <p routerLink="news/{{post.title}}" class="card-title">{{post.title}}</p>
@@ -29,14 +29,16 @@
     </div>
           
     <div class="col-sm-4">
-      <div class="card card-body-right lnDiv">
-        <h3 class="m-auto">Latest News</h3>
+      <div class="card card-body-right lnDiv p-3 rounded-0">
+        <h2 class="m-auto lNews">Latest News</h2>
         <div class="latestNews newsPosts m-auto" *ngFor="let post of posts.data.posts; index as i">
           <img src="./assets/img/news/pm-abiy.png" alt="PM_Abiy" class="card-img-top">
-          <h5 routerLink="" class="card-text">{{post.title}}</h5>
+          <h5 routerLink="" class="card-text mb-5">{{post.title}}</h5>
         </div>
       </div>
     </div>
+
+
         <!-- <div class="latestNews newsPosts m-auto">
           <img src="./assets/img/news/matawalle.png" alt="matawalle" class="card-img-top">
           <h5 class="card-text">{{title}}</h5>
