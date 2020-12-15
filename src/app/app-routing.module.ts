@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BusinessComponent } from './business/business.component';
 import { EntertainmentComponent } from './entertainment/entertainment.component';
@@ -12,6 +12,10 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { SportsComponent } from './sports/sports.component';
 
 const routes: Routes = [
+  { path: "",
+    component: HomeComponent
+
+  },
   {
     path: "business",
     component: BusinessComponent
