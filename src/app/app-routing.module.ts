@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BusinessComponent } from './business/business.component';
 import { EntertainmentComponent } from './entertainment/entertainment.component';
+import { FooterComponent } from './footer/footer.component';
 import { HealthComponent } from './health/health.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
@@ -54,6 +55,11 @@ const routes: Routes = [
   {
     path: "sports",
     component: SportsComponent
+  },
+
+  {
+    path: "footer",
+    component: FooterComponent
   },
 ];
 
