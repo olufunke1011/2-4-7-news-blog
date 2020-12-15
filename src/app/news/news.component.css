@@ -1,7 +1,25 @@
 .parent {
   background-color: #F1F5F7;
+  width: 913px;
+}
+
+.newsText {
+  box-shadow: 0px 2px 3px 0px #000000 25%;
 }
 
 .newsPosts {
   width: 285px;
+}
+
+.lnDiv {
+  width: 325px;
+  height: 145px;
+}
+
+/* #otherNews {
+  margin: 1rem 3rem;
+} */
+
+.grid {
+  grid-gap: 2rem;
 }
