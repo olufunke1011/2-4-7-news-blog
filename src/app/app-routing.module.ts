@@ -13,6 +13,11 @@ import { SportsComponent } from './sports/sports.component';
 
 const routes: Routes = [
   {
+    path: "",
+    component: HomeComponent
+  },
+
+  {
     path: "business",
     component: BusinessComponent
   },
@@ -25,11 +30,6 @@ const routes: Routes = [
   {
     path: "health",
     component: HealthComponent
-  },
-  
-  {
-    path: "home",
-    component: HomeComponent
   },
   
   {

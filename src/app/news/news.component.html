@@ -1,65 +1,67 @@
-<div class="ml-5 mr-5">
-  <h1 class="mb-3">News</h1> 
-  <hr class="w-50 m-0 mb-3">
-  <div class="row">
-    <div class="col-sm-6 mb-5">
-      <img class="card-img" src="./assets/img/news/pm-abiy.png" alt="PM_Abiy"/>
+<div class="wrapper">
+  <div class="ml-5 mr-5">
+    <h1 class="mb-3">News</h1> 
+    <hr class="w-50 m-0 mb-3">
+    <div class="row">
+      <div class="col-sm-6 mb-5">
+        <img class="card-img" src="./assets/img/news/pm-abiy.png" alt="PM_Abiy"/>
+      </div>
+    <div class="col-sm-6">
+      <div class="card-body-right">
+        <h3 class="card-text ml-5">{{posts.data.posts[0].title}}</h3>
+      </div>
     </div>
-  <div class="col-sm-6">
-    <div class="card-body-right">
-      <h3 class="card-text ml-5">{{posts.data.posts[0].title}}</h3>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="col-sm-8 parent">
-      <div class="card-group">
+    <div class="row">
+      <div class="col-sm-8 parent">
+        <div class="card-group">
 
-        <div class="row row-cols-1 row-cols-md-2" id="otherNews">
-          <div class="col mb-5" *ngFor="let post of posts.data.posts; index as i">
-            <div class="card newsPoss m-0 p-0">
-              <img src="./assets/img/news/lasg-news.png" class="card-img-top" alt="manhole_vandalism" id="newsImg">
-              <div class="card-body newsText">
-                <p routerLink="news/{{post.title}}" class="card-title">{{post.title}}</p>
+          <div class="row row-cols-1 row-cols-md-2" id="otherNews">
+            <div class="col mb-5" *ngFor="let post of posts.data.posts; index as i">
+              <div class="card newsPoss m-0 p-0">
+                <img src="./assets/img/news/lasg-news.png" class="card-img-top" alt="manhole_vandalism" id="newsImg">
+                <div class="card-body newsText">
+                  <p routerLink="news/{{post.title}}" class="card-title">{{post.title}}</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-          
-    <div class="col-sm-4">
-      <div class="card card-body-right lnDiv p-3 rounded-0">
-        <h2 class="m-auto lNews">Latest News</h2>
-        <div class="latestNews newsPosts m-auto" *ngFor="let post of posts.data.posts; index as i">
-          <img src="./assets/img/news/pm-abiy.png" alt="PM_Abiy" class="card-img-top">
-          <h5 routerLink="" class="card-text mb-5">{{post.title}}</h5>
+            
+      <div class="col-sm-4">
+        <div class="card card-body-right lnDiv p-3 rounded-0">
+          <h2 class="m-auto lNews">Latest News</h2>
+          <div class="latestNews newsPosts m-auto" *ngFor="let post of posts.data.posts; index as i">
+            <img src="./assets/img/news/pm-abiy.png" alt="PM_Abiy" class="card-img-top">
+            <h5 routerLink="" class="card-text mb-5">{{post.title}}</h5>
+          </div>
         </div>
       </div>
-    </div>
 
 
-        <!-- <div class="latestNews newsPosts m-auto">
-          <img src="./assets/img/news/matawalle.png" alt="matawalle" class="card-img-top">
-          <h5 class="card-text">{{title}}</h5>
+          <!-- <div class="latestNews newsPosts m-auto">
+            <img src="./assets/img/news/matawalle.png" alt="matawalle" class="card-img-top">
+            <h5 class="card-text">{{title}}</h5>
+          </div>
+          <div class="latestNews newsPosts m-auto">
+            <img src="./assets/img/news/lewandoski.png" alt="Lewandoski" class="card-img-top">
+            <h5 class="card-text">{{title}}</h5>
+          </div>
+          <div class="latestNews newsPosts m-auto">
+            <img src="./assets/img/news/wizkid.png" alt="Wizkid" class="card-img-top">
+            <h5 class="card-text">{{title}}</h5>
+          </div>
+          <div class="latestNews newsPosts m-auto">
+            <img src="./assets/img/news/fcmb.png" alt="FCMB" class="card-img-top">
+            <h5 class="card-text">{{title}}</h5>
+          </div>
+          <div class="latestNews newsPosts m-auto">
+            <img src="./assets/img/news/who.png" alt="World_Health_Organization" class="card-img-top">
+            <h5 class="card-text">{{title}}</h5>
+          </div> -->
         </div>
-        <div class="latestNews newsPosts m-auto">
-          <img src="./assets/img/news/lewandoski.png" alt="Lewandoski" class="card-img-top">
-          <h5 class="card-text">{{title}}</h5>
-        </div>
-        <div class="latestNews newsPosts m-auto">
-          <img src="./assets/img/news/wizkid.png" alt="Wizkid" class="card-img-top">
-          <h5 class="card-text">{{title}}</h5>
-        </div>
-        <div class="latestNews newsPosts m-auto">
-          <img src="./assets/img/news/fcmb.png" alt="FCMB" class="card-img-top">
-          <h5 class="card-text">{{title}}</h5>
-        </div>
-        <div class="latestNews newsPosts m-auto">
-          <img src="./assets/img/news/who.png" alt="World_Health_Organization" class="card-img-top">
-          <h5 class="card-text">{{title}}</h5>
-        </div> -->
       </div>
-    </div>
 
+  </div>
 </div>
