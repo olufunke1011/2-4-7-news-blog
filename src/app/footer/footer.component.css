@@ -1,12 +1,7 @@
 .footerPath {
     background-color: #111111;
-<<<<<<< HEAD
-    /* position: absolute;
-    width: 100%; */
-=======
     /* position: absolute; */
     /* width: 100%; */
->>>>>>> b06646f78a3a4e821af9ded71637c5187762b5c5
     bottom: 0;
     z-index: 1;
 }
