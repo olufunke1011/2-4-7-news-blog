@@ -13,9 +13,9 @@
 
 .color {
     position: absolute;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
     top: 13%;
     height: 4.5rem;
     z-index: 100;
@@ -61,3 +61,9 @@
     padding: 0;
     margin-top: .5rem;
  } 
+
+ @media only screen and (max-width: 1200px) {
+     .headerNav {
+         margin-bottom: 5rem;
+     }
+ }
